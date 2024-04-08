@@ -25,6 +25,14 @@ class AdwaitaIcons {
       "assets/icons/application-certificate-symbolic.svg";
   static const application_exit = "assets/icons/application-exit-symbolic.svg";
   static const application_rss = "assets/icons/application-rss-symbolic.svg";
+  static const application_x_addon =
+      "assets/icons/application-x-addon-symbolic.svg";
+  static const application_x_appliance =
+      "assets/icons/application-x-appliance-symbolic.svg";
+  static const application_x_executable =
+      "assets/icons/application-x-executable-symbolic.svg";
+  static const application_x_firmware =
+      "assets/icons/application-x-firmware-symbolic.svg";
   static const applications_engineering =
       "assets/icons/applications-engineering-symbolic.svg";
   static const applications_games =
@@ -39,14 +47,6 @@ class AdwaitaIcons {
       "assets/icons/applications-system-symbolic.svg";
   static const applications_utilities =
       "assets/icons/applications-utilities-symbolic.svg";
-  static const application_x_addon =
-      "assets/icons/application-x-addon-symbolic.svg";
-  static const application_x_appliance =
-      "assets/icons/application-x-appliance-symbolic.svg";
-  static const application_x_executable =
-      "assets/icons/application-x-executable-symbolic.svg";
-  static const application_x_firmware =
-      "assets/icons/application-x-firmware-symbolic.svg";
   static const appointment_missed =
       "assets/icons/appointment-missed-symbolic.svg";
   static const appointment_new = "assets/icons/appointment-new-symbolic.svg";
@@ -88,13 +88,13 @@ class AdwaitaIcons {
   static const battery_level_0_charging =
       "assets/icons/battery-level-0-charging-symbolic.svg";
   static const battery_level_0 = "assets/icons/battery-level-0-symbolic.svg";
+  static const battery_level_10_charging =
+      "assets/icons/battery-level-10-charging-symbolic.svg";
+  static const battery_level_10 = "assets/icons/battery-level-10-symbolic.svg";
   static const battery_level_100_charged =
       "assets/icons/battery-level-100-charged-symbolic.svg";
   static const battery_level_100 =
       "assets/icons/battery-level-100-symbolic.svg";
-  static const battery_level_10_charging =
-      "assets/icons/battery-level-10-charging-symbolic.svg";
-  static const battery_level_10 = "assets/icons/battery-level-10-symbolic.svg";
   static const battery_level_20_charging =
       "assets/icons/battery-level-20-charging-symbolic.svg";
   static const battery_level_20 = "assets/icons/battery-level-20-symbolic.svg";
@@ -142,8 +142,8 @@ class AdwaitaIcons {
   static const bookmark_new = "assets/icons/bookmark-new-symbolic.svg";
   static const break_point = "assets/icons/break-point-symbolic.svg";
   static const brush = "assets/icons/brush-symbolic.svg";
-  static const building = "assets/icons/building-symbolic.svg";
   static const build = "assets/icons/build-symbolic.svg";
+  static const building = "assets/icons/building-symbolic.svg";
   static const bus = "assets/icons/bus-symbolic.svg";
   static const cafe = "assets/icons/cafe-symbolic.svg";
   static const cage = "assets/icons/cage-symbolic.svg";
@@ -167,13 +167,13 @@ class AdwaitaIcons {
   static const camera_iso = "assets/icons/camera-iso-symbolic.svg";
   static const camera_photo = "assets/icons/camera-photo-symbolic.svg";
   static const camera_shutter = "assets/icons/camera-shutter-symbolic.svg";
-  static const cameras = "assets/icons/cameras-symbolic.svg";
   static const camera_switch = "assets/icons/camera-switch-symbolic.svg";
   static const camera = "assets/icons/camera-symbolic.svg";
   static const camera_toggle = "assets/icons/camera-toggle-symbolic.svg";
   static const camera_video_old = "assets/icons/camera-video-old-symbolic.svg";
   static const camera_video = "assets/icons/camera-video-symbolic.svg";
   static const camera_web = "assets/icons/camera-web-symbolic.svg";
+  static const cameras = "assets/icons/cameras-symbolic.svg";
   static const caps_lock = "assets/icons/caps-lock-symbolic.svg";
   static const carousel = "assets/icons/carousel-symbolic.svg";
   static const cd = "assets/icons/cd-symbolic.svg";
@@ -205,10 +205,10 @@ class AdwaitaIcons {
   static const cloud_outline_thin =
       "assets/icons/cloud-outline-thin-symbolic.svg";
   static const clouds = "assets/icons/clouds-symbolic.svg";
-  static const colorimeter_colorhug =
-      "assets/icons/colorimeter-colorhug-symbolic.svg";
   static const color_picker = "assets/icons/color-picker-symbolic.svg";
   static const color_select = "assets/icons/color-select-symbolic.svg";
+  static const colorimeter_colorhug =
+      "assets/icons/colorimeter-colorhug-symbolic.svg";
   static const compass_alt = "assets/icons/compass-alt-symbolic.svg";
   static const compass = "assets/icons/compass-symbolic.svg";
   static const compass_wind = "assets/icons/compass-wind-symbolic.svg";
@@ -251,6 +251,7 @@ class AdwaitaIcons {
   static const display_projector =
       "assets/icons/display-projector-symbolic.svg";
   static const display = "assets/icons/display-symbolic.svg";
+  static const do_not_distrub = "assets/icons/do-not-distrub-symbolic.svg";
   static const dock_bottom = "assets/icons/dock-bottom-symbolic.svg";
   static const dock_left = "assets/icons/dock-left-symbolic.svg";
   static const dock_right = "assets/icons/dock-right-symbolic.svg";
@@ -271,7 +272,6 @@ class AdwaitaIcons {
   static const document_save_as = "assets/icons/document-save-as-symbolic.svg";
   static const document_save = "assets/icons/document-save-symbolic.svg";
   static const document_send = "assets/icons/document-send-symbolic.svg";
-  static const do_not_distrub = "assets/icons/do-not-distrub-symbolic.svg";
   static const dotted_box = "assets/icons/dotted-box-symbolic.svg";
   static const drag_n_drop = "assets/icons/drag-n-drop-symbolic.svg";
   static const drawer = "assets/icons/drawer-symbolic.svg";
@@ -298,13 +298,13 @@ class AdwaitaIcons {
   static const edit_find_replace =
       "assets/icons/edit-find-replace-symbolic.svg";
   static const edit_find = "assets/icons/edit-find-symbolic.svg";
-  static const editor = "assets/icons/editor-symbolic.svg";
   static const edit_paste = "assets/icons/edit-paste-symbolic.svg";
   static const edit_redo = "assets/icons/edit-redo-symbolic.svg";
   static const edit_select_all = "assets/icons/edit-select-all-symbolic.svg";
   static const edit_select = "assets/icons/edit-select-symbolic.svg";
   static const edit = "assets/icons/edit-symbolic.svg";
   static const edit_undo = "assets/icons/edit-undo-symbolic.svg";
+  static const editor = "assets/icons/editor-symbolic.svg";
   static const egg = "assets/icons/egg-symbolic.svg";
   static const electric_car = "assets/icons/electric-car-symbolic.svg";
   static const emblem_default = "assets/icons/emblem-default-symbolic.svg";
@@ -331,14 +331,14 @@ class AdwaitaIcons {
   static const emoji_travel = "assets/icons/emoji-travel-symbolic.svg";
   static const emote_love = "assets/icons/emote-love-symbolic.svg";
   static const entry_clear = "assets/icons/entry-clear-symbolic.svg";
-  static const eraser2 = "assets/icons/eraser2-symbolic.svg";
   static const eraser = "assets/icons/eraser-symbolic.svg";
+  static const eraser2 = "assets/icons/eraser2-symbolic.svg";
   static const error_correct = "assets/icons/error-correct-symbolic.svg";
   static const error = "assets/icons/error-symbolic.svg";
   static const execute_from = "assets/icons/execute-from-symbolic.svg";
   static const execute_to = "assets/icons/execute-to-symbolic.svg";
-  static const explore2 = "assets/icons/explore2-symbolic.svg";
   static const explore = "assets/icons/explore-symbolic.svg";
+  static const explore2 = "assets/icons/explore2-symbolic.svg";
   static const external_devices = "assets/icons/external-devices-symbolic.svg";
   static const external_link = "assets/icons/external-link-symbolic.svg";
   static const eye_closed_negative =
@@ -379,19 +379,19 @@ class AdwaitaIcons {
   static const few_clouds = "assets/icons/few-clouds-symbolic.svg";
   static const fill_tool = "assets/icons/fill-tool-symbolic.svg";
   static const find_location = "assets/icons/find-location-symbolic.svg";
-  static const fingerprint2 = "assets/icons/fingerprint2-symbolic.svg";
   static const fingerprint_authentication =
       "assets/icons/fingerprint-authentication-symbolic.svg";
   static const fingerprint = "assets/icons/fingerprint-symbolic.svg";
+  static const fingerprint2 = "assets/icons/fingerprint2-symbolic.svg";
   static const flag_filled = "assets/icons/flag-filled-symbolic.svg";
   static const flag_outline_thick =
       "assets/icons/flag-outline-thick-symbolic.svg";
   static const flag_outline_thin =
       "assets/icons/flag-outline-thin-symbolic.svg";
   static const flap = "assets/icons/flap-symbolic.svg";
+  static const flash_memory = "assets/icons/flash-memory-symbolic.svg";
   static const flashlight_none = "assets/icons/flashlight-none-symbolic.svg";
   static const flashlight = "assets/icons/flashlight-symbolic.svg";
-  static const flash_memory = "assets/icons/flash-memory-symbolic.svg";
   static const floppy = "assets/icons/floppy-symbolic.svg";
   static const flying = "assets/icons/flying-symbolic.svg";
   static const focus_legacy_systray =
@@ -464,7 +464,6 @@ class AdwaitaIcons {
   static const globe = "assets/icons/globe-symbolic.svg";
   static const gnome_power_manager =
       "assets/icons/gnome-power-manager-symbolic.svg";
-  static const goa_panel = "assets/icons/goa-panel-symbolic.svg";
   static const go_bottom = "assets/icons/go-bottom-symbolic.svg";
   static const go_down = "assets/icons/go-down-symbolic.svg";
   static const go_first = "assets/icons/go-first-symbolic.svg";
@@ -475,6 +474,7 @@ class AdwaitaIcons {
   static const go_previous = "assets/icons/go-previous-symbolic.svg";
   static const go_top = "assets/icons/go-top-symbolic.svg";
   static const go_up = "assets/icons/go-up-symbolic.svg";
+  static const goa_panel = "assets/icons/goa-panel-symbolic.svg";
   static const graveyard = "assets/icons/graveyard-symbolic.svg";
   static const grid_filled = "assets/icons/grid-filled-symbolic.svg";
   static const grid = "assets/icons/grid-symbolic.svg";
@@ -519,7 +519,7 @@ class AdwaitaIcons {
   static const insert_text = "assets/icons/insert-text-symbolic.svg";
   static const ipod = "assets/icons/ipod-symbolic.svg";
   static const joined_displays = "assets/icons/joined-displays-symbolic.svg";
-  static const keyboard2 = "assets/icons/keyboard2-symbolic.svg";
+  static const key = "assets/icons/key-symbolic.svg";
   static const keyboard_brightness =
       "assets/icons/keyboard-brightness-symbolic.svg";
   static const keyboard_caps_lock_filled =
@@ -542,7 +542,7 @@ class AdwaitaIcons {
       "assets/icons/keyboard-shift-filled-symbolic.svg";
   static const keyboard_shift = "assets/icons/keyboard-shift-symbolic.svg";
   static const keyboard = "assets/icons/keyboard-symbolic.svg";
-  static const key = "assets/icons/key-symbolic.svg";
+  static const keyboard2 = "assets/icons/keyboard2-symbolic.svg";
   static const large_brush = "assets/icons/large-brush-symbolic.svg";
   static const larger_brush = "assets/icons/larger-brush-symbolic.svg";
   static const leaflet = "assets/icons/leaflet-symbolic.svg";
@@ -581,10 +581,10 @@ class AdwaitaIcons {
   static const mail_unread = "assets/icons/mail-unread-symbolic.svg";
   static const map_marker = "assets/icons/map-marker-symbolic.svg";
   static const map = "assets/icons/map-symbolic.svg";
-  static const mark2 = "assets/icons/mark2-symbolic.svg";
-  static const marker = "assets/icons/marker-symbolic.svg";
   static const mark_location = "assets/icons/mark-location-symbolic.svg";
   static const mark = "assets/icons/mark-symbolic.svg";
+  static const mark2 = "assets/icons/mark2-symbolic.svg";
+  static const marker = "assets/icons/marker-symbolic.svg";
   static const media_eject = "assets/icons/media-eject-symbolic.svg";
   static const media_flash = "assets/icons/media-flash-symbolic.svg";
   static const media_floppy = "assets/icons/media-floppy-symbolic.svg";
@@ -640,8 +640,8 @@ class AdwaitaIcons {
   static const money_none = "assets/icons/money-none-symbolic.svg";
   static const money = "assets/icons/money-symbolic.svg";
   static const month = "assets/icons/month-symbolic.svg";
-  static const moon_alt2 = "assets/icons/moon-alt2-symbolic.svg";
   static const moon_alt = "assets/icons/moon-alt-symbolic.svg";
+  static const moon_alt2 = "assets/icons/moon-alt2-symbolic.svg";
   static const moon = "assets/icons/moon-symbolic.svg";
   static const mountain = "assets/icons/mountain-symbolic.svg";
   static const mouse = "assets/icons/mouse-symbolic.svg";
@@ -654,8 +654,8 @@ class AdwaitaIcons {
       "assets/icons/multimedia-volume-control-symbolic.svg";
   static const multitasking = "assets/icons/multitasking-symbolic.svg";
   static const museum = "assets/icons/museum-symbolic.svg";
-  static const music_artist2 = "assets/icons/music-artist2-symbolic.svg";
   static const music_artist = "assets/icons/music-artist-symbolic.svg";
+  static const music_artist2 = "assets/icons/music-artist2-symbolic.svg";
   static const music_note_single =
       "assets/icons/music-note-single-symbolic.svg";
   static const music_note = "assets/icons/music-note-symbolic.svg";
@@ -757,14 +757,14 @@ class AdwaitaIcons {
   static const nintendo_controller =
       "assets/icons/nintendo-controller-symbolic.svg";
   static const no_flying = "assets/icons/no-flying-symbolic.svg";
-  static const non_starred = "assets/icons/non-starred-symbolic.svg";
-  static const note2 = "assets/icons/note2-symbolic.svg";
-  static const note = "assets/icons/note-symbolic.svg";
-  static const notifications_disabled =
-      "assets/icons/notifications-disabled-symbolic.svg";
   static const no_toilets = "assets/icons/no-toilets-symbolic.svg";
   static const no_violence = "assets/icons/no-violence-symbolic.svg";
   static const no_wheelchair = "assets/icons/no-wheelchair-symbolic.svg";
+  static const non_starred = "assets/icons/non-starred-symbolic.svg";
+  static const note = "assets/icons/note-symbolic.svg";
+  static const note2 = "assets/icons/note2-symbolic.svg";
+  static const notifications_disabled =
+      "assets/icons/notifications-disabled-symbolic.svg";
   static const nudity_none = "assets/icons/nudity-none-symbolic.svg";
   static const nudity = "assets/icons/nudity-symbolic.svg";
   static const nut = "assets/icons/nut-symbolic.svg";
@@ -809,31 +809,31 @@ class AdwaitaIcons {
   static const penguin_alt = "assets/icons/penguin-alt-symbolic.svg";
   static const penguin = "assets/icons/penguin-symbolic.svg";
   static const pepper = "assets/icons/pepper-symbolic.svg";
-  static const person2 = "assets/icons/person2-symbolic.svg";
   static const person = "assets/icons/person-symbolic.svg";
+  static const person2 = "assets/icons/person2-symbolic.svg";
   static const phone_apple_iphone =
       "assets/icons/phone-apple-iphone-symbolic.svg";
-  static const phonelink2_off = "assets/icons/phonelink2-off-symbolic.svg";
-  static const phonelink2 = "assets/icons/phonelink2-symbolic.svg";
+  static const phone_old = "assets/icons/phone-old-symbolic.svg";
+  static const phone_oldschool = "assets/icons/phone-oldschool-symbolic.svg";
+  static const phone = "assets/icons/phone-symbolic.svg";
   static const phonelink_delete = "assets/icons/phonelink-delete-symbolic.svg";
   static const phonelink_lock = "assets/icons/phonelink-lock-symbolic.svg";
   static const phonelink_off = "assets/icons/phonelink-off-symbolic.svg";
   static const phonelink_ring = "assets/icons/phonelink-ring-symbolic.svg";
   static const phonelink_setup = "assets/icons/phonelink-setup-symbolic.svg";
   static const phonelink = "assets/icons/phonelink-symbolic.svg";
-  static const phone_oldschool = "assets/icons/phone-oldschool-symbolic.svg";
-  static const phone_old = "assets/icons/phone-old-symbolic.svg";
-  static const phone = "assets/icons/phone-symbolic.svg";
+  static const phonelink2_off = "assets/icons/phonelink2-off-symbolic.svg";
+  static const phonelink2 = "assets/icons/phonelink2-symbolic.svg";
   static const photo_camera = "assets/icons/photo-camera-symbolic.svg";
-  static const pin2 = "assets/icons/pin2-symbolic.svg";
   static const pin_location = "assets/icons/pin-location-symbolic.svg";
   static const pin = "assets/icons/pin-symbolic.svg";
+  static const pin2 = "assets/icons/pin2-symbolic.svg";
   static const pipette = "assets/icons/pipette-symbolic.svg";
-  static const playback = "assets/icons/playback-symbolic.svg";
   static const play_large = "assets/icons/play-large-symbolic.svg";
-  static const playlist2 = "assets/icons/playlist2-symbolic.svg";
-  static const playlist = "assets/icons/playlist-symbolic.svg";
   static const play = "assets/icons/play-symbolic.svg";
+  static const playback = "assets/icons/playback-symbolic.svg";
+  static const playlist = "assets/icons/playlist-symbolic.svg";
+  static const playlist2 = "assets/icons/playlist2-symbolic.svg";
   static const podcast = "assets/icons/podcast-symbolic.svg";
   static const post_box = "assets/icons/post-box-symbolic.svg";
   static const power_profile_balanced =
@@ -920,29 +920,29 @@ class AdwaitaIcons {
   static const scattered_clouds = "assets/icons/scattered-clouds-symbolic.svg";
   static const school = "assets/icons/school-symbolic.svg";
   static const scissors = "assets/icons/scissors-symbolic.svg";
+  static const screen_privacy_disabled =
+      "assets/icons/screen-privacy-disabled-symbolic.svg";
+  static const screen_privacy_disabled7 =
+      "assets/icons/screen-privacy-disabled7-symbolic.svg";
+  static const screen_privacy = "assets/icons/screen-privacy-symbolic.svg";
   static const screen_privacy2 = "assets/icons/screen-privacy2-symbolic.svg";
   static const screen_privacy3 = "assets/icons/screen-privacy3-symbolic.svg";
   static const screen_privacy4 = "assets/icons/screen-privacy4-symbolic.svg";
   static const screen_privacy5 = "assets/icons/screen-privacy5-symbolic.svg";
   static const screen_privacy6 = "assets/icons/screen-privacy6-symbolic.svg";
   static const screen_privacy7 = "assets/icons/screen-privacy7-symbolic.svg";
-  static const screen_privacy_disabled7 =
-      "assets/icons/screen-privacy-disabled7-symbolic.svg";
-  static const screen_privacy_disabled =
-      "assets/icons/screen-privacy-disabled-symbolic.svg";
-  static const screen_privacy = "assets/icons/screen-privacy-symbolic.svg";
   static const screen_shared = "assets/icons/screen-shared-symbolic.svg";
   static const scroll_on_a_roll = "assets/icons/scroll-on-a-roll-symbolic.svg";
   static const scroll = "assets/icons/scroll-symbolic.svg";
   static const security_high = "assets/icons/security-high-symbolic.svg";
   static const security_low = "assets/icons/security-low-symbolic.svg";
   static const security_medium = "assets/icons/security-medium-symbolic.svg";
+  static const select_mode = "assets/icons/select-mode-symbolic.svg";
+  static const select = "assets/icons/select-symbolic.svg";
   static const selection_end = "assets/icons/selection-end-symbolic.svg";
   static const selection_opaque = "assets/icons/selection-opaque-symbolic.svg";
   static const selection_start = "assets/icons/selection-start-symbolic.svg";
   static const selection = "assets/icons/selection-symbolic.svg";
-  static const select_mode = "assets/icons/select-mode-symbolic.svg";
-  static const select = "assets/icons/select-symbolic.svg";
   static const semi_starred = "assets/icons/semi-starred-symbolic.svg";
   static const send_to = "assets/icons/send-to-symbolic.svg";
   static const settings = "assets/icons/settings-symbolic.svg";
@@ -987,15 +987,15 @@ class AdwaitaIcons {
       "assets/icons/software-update-available-symbolic.svg";
   static const software_update_urgent =
       "assets/icons/software-update-urgent-symbolic.svg";
-  static const soundcard = "assets/icons/soundcard-symbolic.svg";
   static const sound_wave_alt = "assets/icons/sound-wave-alt-symbolic.svg";
   static const sound_wave = "assets/icons/sound-wave-symbolic.svg";
+  static const soundcard = "assets/icons/soundcard-symbolic.svg";
   static const speakers = "assets/icons/speakers-symbolic.svg";
   static const speech_bubbles = "assets/icons/speech-bubbles-symbolic.svg";
+  static const speedometer = "assets/icons/speedometer-symbolic.svg";
   static const speedometer2 = "assets/icons/speedometer2-symbolic.svg";
   static const speedometer3 = "assets/icons/speedometer3-symbolic.svg";
   static const speedometer4 = "assets/icons/speedometer4-symbolic.svg";
-  static const speedometer = "assets/icons/speedometer-symbolic.svg";
   static const spinner = "assets/icons/spinner-symbolic.svg";
   static const spring = "assets/icons/spring-symbolic.svg";
   static const square_filled = "assets/icons/square-filled-symbolic.svg";
@@ -1012,9 +1012,9 @@ class AdwaitaIcons {
       "assets/icons/star-outline-thick-symbolic.svg";
   static const star_outline_thin =
       "assets/icons/star-outline-thin-symbolic.svg";
+  static const star_thin = "assets/icons/star-thin-symbolic.svg";
   static const starred = "assets/icons/starred-symbolic.svg";
   static const start_here = "assets/icons/start-here-symbolic.svg";
-  static const star_thin = "assets/icons/star-thin-symbolic.svg";
   static const step_back = "assets/icons/step-back-symbolic.svg";
   static const step_in = "assets/icons/step-in-symbolic.svg";
   static const step_out = "assets/icons/step-out-symbolic.svg";
@@ -1045,9 +1045,9 @@ class AdwaitaIcons {
   static const system_switch_user =
       "assets/icons/system-switch-user-symbolic.svg";
   static const system_users = "assets/icons/system-users-symbolic.svg";
-  static const tablet = "assets/icons/tablet-symbolic.svg";
   static const tab_new = "assets/icons/tab-new-symbolic.svg";
   static const tab = "assets/icons/tab-symbolic.svg";
+  static const tablet = "assets/icons/tablet-symbolic.svg";
   static const tag = "assets/icons/tag-symbolic.svg";
   static const tape = "assets/icons/tape-symbolic.svg";
   static const task_due = "assets/icons/task-due-symbolic.svg";
@@ -1081,8 +1081,8 @@ class AdwaitaIcons {
   static const thunderbolt_acquiring =
       "assets/icons/thunderbolt-acquiring-symbolic.svg";
   static const thunderbolt = "assets/icons/thunderbolt-symbolic.svg";
-  static const timer_alt2 = "assets/icons/timer-alt2-symbolic.svg";
   static const timer_alt = "assets/icons/timer-alt-symbolic.svg";
+  static const timer_alt2 = "assets/icons/timer-alt2-symbolic.svg";
   static const timer = "assets/icons/timer-symbolic.svg";
   static const toilets = "assets/icons/toilets-symbolic.svg";
   static const toolbars = "assets/icons/toolbars-symbolic.svg";
@@ -1094,8 +1094,8 @@ class AdwaitaIcons {
       "assets/icons/touchpad-disabled-symbolic.svg";
   static const touchpad = "assets/icons/touchpad-symbolic.svg";
   static const town = "assets/icons/town-symbolic.svg";
-  static const tree2 = "assets/icons/tree2-symbolic.svg";
   static const tree = "assets/icons/tree-symbolic.svg";
+  static const tree2 = "assets/icons/tree2-symbolic.svg";
   static const trophy = "assets/icons/trophy-symbolic.svg";
   static const tty = "assets/icons/tty-symbolic.svg";
   static const tv = "assets/icons/tv-symbolic.svg";
@@ -1157,12 +1157,12 @@ class AdwaitaIcons {
       "assets/icons/view-sort-descending-symbolic.svg";
   static const view_switcher = "assets/icons/view-switcher-symbolic.svg";
   static const view_wrapped = "assets/icons/view-wrapped-symbolic.svg";
+  static const violence_none = "assets/icons/violence-none-symbolic.svg";
+  static const violence = "assets/icons/violence-symbolic.svg";
   static const violence2_none = "assets/icons/violence2-none-symbolic.svg";
   static const violence2 = "assets/icons/violence2-symbolic.svg";
   static const violence3_none = "assets/icons/violence3-none-symbolic.svg";
   static const violence3 = "assets/icons/violence3-symbolic.svg";
-  static const violence_none = "assets/icons/violence-none-symbolic.svg";
-  static const violence = "assets/icons/violence-symbolic.svg";
   static const walking = "assets/icons/walking-symbolic.svg";
   static const warning = "assets/icons/warning-symbolic.svg";
   static const weather_alert = "assets/icons/weather-alert-symbolic.svg";
@@ -1186,8 +1186,8 @@ class AdwaitaIcons {
   static const weather_windy = "assets/icons/weather-windy-symbolic.svg";
   static const web_browser = "assets/icons/web-browser-symbolic.svg";
   static const week = "assets/icons/week-symbolic.svg";
-  static const weight2 = "assets/icons/weight2-symbolic.svg";
   static const weight = "assets/icons/weight-symbolic.svg";
+  static const weight2 = "assets/icons/weight2-symbolic.svg";
   static const wheat = "assets/icons/wheat-symbolic.svg";
   static const wheelchair_alt = "assets/icons/wheelchair-alt-symbolic.svg";
   static const wheelchair_limited =
@@ -1204,7 +1204,6 @@ class AdwaitaIcons {
   static const window_shrink = "assets/icons/window-shrink-symbolic.svg";
   static const window = "assets/icons/window-symbolic.svg";
   static const windy = "assets/icons/windy-symbolic.svg";
-  static const xbox_controller = "assets/icons/xbox-controller-symbolic.svg";
   static const x_office_address_book =
       "assets/icons/x-office-address-book-symbolic.svg";
   static const x_office_calendar =
@@ -1216,6 +1215,7 @@ class AdwaitaIcons {
       "assets/icons/x-office-presentation-symbolic.svg";
   static const x_office_spreadsheet =
       "assets/icons/x-office-spreadsheet-symbolic.svg";
+  static const xbox_controller = "assets/icons/xbox-controller-symbolic.svg";
   static const year_alt = "assets/icons/year-alt-symbolic.svg";
   static const year = "assets/icons/year-symbolic.svg";
   static const zoom_fit_best = "assets/icons/zoom-fit-best-symbolic.svg";

@@ -43,5 +43,5 @@ echo "}" >>$LIBRARY_OUTPUT
 echo "];" >>$LIST_OUTPUT
 
 # Lastly, we format both output files using Flutter's tools.
-flutter format $LIBRARY_OUTPUT
-flutter format $LIST_OUTPUT
+dart format $LIBRARY_OUTPUT
+dart format $LIST_OUTPUT
